@@ -1,9 +1,15 @@
 body {
+	background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9HCKGOqdYgkyE-2cr-YE6yEEd82jL0rRs4g&usqp=CAU');
+	background-color: #333;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 	font-family: Arial, sans-serif;
 	margin: 0;
 	padding: 0;
 	text-align: center;
 }
+
 
 h1 {
 	color: #333;
@@ -35,5 +41,9 @@ li {
 }
 
 li:nth-child(odd) {
-	background-color: #eee;
+	background-color: rgb(238, 238, 238);
+}
+
+li:nth-child(3) {
+	color: #00b8d4;
 }
